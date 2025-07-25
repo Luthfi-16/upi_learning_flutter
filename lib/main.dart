@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
+import 'package:upi_learning/belajar_form/form_screen.dart';
 import 'package:upi_learning/container/dua.dart';
 import 'package:upi_learning/container/satu.dart';
 import 'package:upi_learning/container/tiga.dart';
@@ -26,7 +27,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LatihanSatu(),
+      home: BelajarForm(),
     );
   }
 }
